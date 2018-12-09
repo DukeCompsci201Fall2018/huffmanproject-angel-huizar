@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=HuffNode
+comment0.text=\r\n\ Utility\ binary-tree\ (Huffman\ tree)\ node\ for\ Huffman\ coding.\ This\ is\ a\ simple,\r\n\ standard\ binary-tree\ node\ implementing\ the\ comparable\ interface\ based\ on\r\n\ weight.\r\n\ \r\n\ @author\ Brian\ Lavallee\r\n\ @author\ Owen\ Astrachan\r\n\ @version\ 2.0,\ no\ getters,\ just\ a\ plain\ old\ Java\ object\ aka\ POJO\r\n
+comment1.params=value\ weight
+comment1.target=HuffNode(int,\ int)
+comment1.text=\r\n\ construct\ leaf\ node\ (null\ children)\r\n\ \r\n\ @param\ value\r\n\ \ \ \ \ \ \ \ \ \ \ \ is\ the\ value\ stored\ in\ the\ node\ (e.g.,\ character)\r\n\ @param\ weight\r\n\ \ \ \ \ \ \ \ \ \ \ \ is\ used\ for\ comparison\ (e.g.,\ count\ of\ \#\ occurrences)\r\n
+comment2.params=value\ weight\ left\ right
+comment2.target=HuffNode(int,\ int,\ HuffNode,\ HuffNode)
+comment2.text=\r\n\ construct\ internal\ node\ (with\ children)\r\n\ \r\n\ @param\ value\r\n\ \ \ \ \ \ \ \ \ \ \ \ is\ stored\ as\ value\ of\ node\r\n\ @param\ weight\r\n\ \ \ \ \ \ \ \ \ \ \ \ is\ weight\ of\ node\r\n\ @param\ ltree\r\n\ \ \ \ \ \ \ \ \ \ \ \ is\ left\ subtree\r\n\ @param\ rtree\r\n\ \ \ \ \ \ \ \ \ \ \ \ is\ right\ subtree\r\n
+comment3.params=other
+comment3.target=int\ compareTo(HuffNode)
+comment3.text=\r\n\ Return\ value\ based\ on\ comparing\ this\ HuffNode\ to\ another\r\n\ BASED\ ON\ WEIGHT.\r\n\ \r\n\ @return\ -1\ if\ this\ <\ o,\ +1\ if\ this\ >\ o,\ and\ 0\ if\ this\ \=\=\ 0\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

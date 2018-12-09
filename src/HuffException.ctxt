@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=HuffException
+comment0.text=\r\n\tUsed\ in\ place\ of\ IOException\ so\ user\ does\ not\ have\ to\ use\r\n\ttry-catch\ blocks.\ \ Used\ in\ place\ of\ RuntimeException\ so\r\n\tthat\ regular\ RuntimeExceptions\ are\ still\ handled\ in\ the\ regular\r\n\tway.\r\n\r\n\t@author\ Brian\ Lavallee\r\n\t@since\ 5\ November\ 2015\r\n
+comment1.params=error
+comment1.target=HuffException(java.lang.String)
+numComments=2
